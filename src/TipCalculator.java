@@ -29,7 +29,6 @@ public class TipCalculator {
             if (dishCost >= 0) {
                 noTipBill += dishCost;
             }
-            scan.nextLine();
         }
 
     // Calculation methods

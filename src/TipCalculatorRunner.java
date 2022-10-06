@@ -24,6 +24,7 @@ public class TipCalculatorRunner {
         while (dishCost >= 0) {
             System.out.print("Enter a cost in dollars and cents, e.g. 12.50 (-1 to end): ");
             dishCost = scan.nextDouble();
+            scan.nextLine();
             tipCal1.addMeal(dishCost);
         }
 
