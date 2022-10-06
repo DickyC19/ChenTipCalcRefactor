@@ -1,12 +1,7 @@
-// Import
-import java.util.Scanner;
-
 public class TipCalculator {
     private int numPeople;
     private double tipPercent;
     private double noTipBill;
-
-    Scanner scan = new Scanner(System.in);
 
     // Constructor
     public TipCalculator(int numPeople, double tipPercent) {
